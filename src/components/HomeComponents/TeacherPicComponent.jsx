@@ -4,11 +4,11 @@ import React from "react";
 // pictures
 import webGeneralIcon from '../../assets/pictures/timeSchoolGeneralLogo.png'
 
-function TeacherPicComponent({ selectedTeacher }) {
+function TeacherPicComponent() {
   return (
     <div className="w-[350px] h-full bg-[#FFC107] rounded-xl">
       <img
-        src={selectedTeacher ? selectedTeacher.imgUrl : webGeneralIcon}
+        src={webGeneralIcon}
         alt="teacher picture"
         className="w-full h-full object-cover object-center rounded-xl"
       />

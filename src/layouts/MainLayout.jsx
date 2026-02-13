@@ -10,13 +10,13 @@ function MainLayout() {
     <>
       <Header />
 
-      <div className="container mx-auto">
+      <div className="container mx-auto min-h-[2000px]">
         <main className="font-inter">
           <Outlet />
         </main>
       </div>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

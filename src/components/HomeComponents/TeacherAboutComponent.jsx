@@ -1,7 +1,7 @@
 import React from "react";
 
 function TeacherAboutComponent({ selectedTeacher }) {
-  const teacher = selectedTeacher === null ? false : selectedTeacher;
+  const teacher = selectedTeacher === undefined ? "false" : selectedTeacher;
 
   return (
     <div className="flex flex-col items-center gap-3">

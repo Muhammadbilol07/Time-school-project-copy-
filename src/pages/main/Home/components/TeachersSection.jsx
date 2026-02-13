@@ -12,7 +12,7 @@ function TeachersSection() {
     "https://educenter-qzud.onrender.com/educenter/v1/api/teachers/",
   );
 
-  const [selectedTeacher, setSelectedTeacher] = useState("");
+  const [selectedTeacher, setSelectedTeacher] = useState([]);
 
   return (
     <section className="font-inter py-8">

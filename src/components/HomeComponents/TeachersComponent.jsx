@@ -19,7 +19,7 @@ function TeachersComponent({ data, loading, error, setSelectedTeacher }) {
   }
 
   return (
-    <div className="flex flex-col items-center gap-3 h-full pr-1 overflow-y-scroll">
+    <div className="flex flex-col items-center gap-3 h-full pr-1 overflow-y-auto">
       {data &&
         data.map((teacher) => (
           <div
