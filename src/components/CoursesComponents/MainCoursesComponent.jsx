@@ -4,8 +4,6 @@ import React from "react";
 import IT_icon from "../../assets/pictures/IT_Icon.png";
 
 function MainCoursesComponent({ data, loading, error }) {
-  console.log(loading);
-
   if (loading) {
     return <h3 className="text-amber-400 font-black text-2xl">Loading...</h3>;
   }

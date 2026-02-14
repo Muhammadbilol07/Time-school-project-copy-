@@ -10,6 +10,7 @@ import Home from "../pages/main/Home/Home";
 import Course from "../pages/main/courses/Course";
 import Connection from "../pages/main/connection/Connection";
 import Login from "../pages/auth/login/Login";
+import Result from "../pages/main/Results/Result";
 
 export const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
           {
             path: '/connection',
             element: <Connection />
+          },
+          {
+            path: '/results',
+            element: <Result />
           }
         ],
       },

@@ -31,7 +31,7 @@ function Header() {
             <NavLink to="/courses">Kurslar</NavLink>
           </li>
           <li className="font-medium text-lg text-white">
-            <NavLink to="/">Natijalar</NavLink>
+            <NavLink to="/results">Natijalar</NavLink>
           </li>
           <li className="font-medium text-lg text-white">
             <NavLink to="/">Ro'yxatdan o'tish</NavLink>

@@ -15,6 +15,14 @@ import "swiper/css/pagination";
 
 import { Autoplay } from "swiper/modules";
 function AllCoursesComponent({ data, loading, error }) {
+  if (loading) {
+    return <h3 className="text-amber-400 mt-5 font-black text-3xl">Loading...</h3>;
+  }
+
+  if (error) {
+    return <p className="text-red-500 font-bold">Xatolik yuz berdi!</p>;
+  }
+
   return (
     <>
       <Swiper
@@ -48,7 +56,9 @@ function AllCoursesComponent({ data, loading, error }) {
             <SwiperSlide>
               <div className="bg-[#FFC107] w-96 h-56 flex flex-col items-center justify-center gap-2 py-2 rounded-lg mt-10">
                 <img src={IT_Icon} alt="rasm bor" className="w-24" />
-                <h4 className="text-black font-black text-3xl text-center">{course.course_name}</h4>
+                <h4 className="text-black font-black text-3xl text-center">
+                  {course.course_name}
+                </h4>
                 <button className="bg-black text-white font-black text-2xl w-56 rounded-xl py-2">
                   Batafsil
                 </button>
