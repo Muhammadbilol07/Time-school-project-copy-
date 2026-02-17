@@ -11,8 +11,8 @@ import PublicRoute from "./PublicRoute";
 
 // main pages
 import Home from "../pages/main/Home/Home";
-import Course from "../pages/main/courses/Course";
-import Connection from "../pages/main/connection/Connection";
+import Course from "../pages/main/Courses/Course";
+import Connection from "../pages/main/Connection/Connection";
 import Login from "../pages/auth/login/Login";
 import Result from "../pages/main/Results/Result";
 import Teachers from "../pages/main/Teachers/Teachers";
