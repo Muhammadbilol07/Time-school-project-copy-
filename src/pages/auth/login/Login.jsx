@@ -48,7 +48,7 @@ function Login() {
   };
 
   return (
-    <section className="flex flex-col items-center mx-auto font-inter">
+    <section className="flex flex-col items-center mx-auto font-inter mb-24">
       <div className="flex items-center">
         <img src={logoPicture} alt="rasm bor" className="w-28" />
         <h2 className="text-[#FFC107] font-black text-3xl">Time School</h2>
