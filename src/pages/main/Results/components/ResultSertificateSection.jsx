@@ -6,7 +6,7 @@ import ResultSerticateComponent from "../../../../components/ResultComponents/Re
 
 function ResultSertificateSection() {
   return (
-    <section className="mt-14">
+    <section className="mt-14 mb-24">
       <h2 className="font-black text-[#FFC107] text-5xl">
         Beriladigan Sertifikatlar
       </h2>

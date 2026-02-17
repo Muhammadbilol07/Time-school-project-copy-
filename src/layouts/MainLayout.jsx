@@ -10,7 +10,7 @@ function MainLayout() {
     <>
       <Header />
 
-      <div className="container mx-auto min-h-[2000px]">
+      <div className="container mx-auto">
         <main className="font-inter">
           <Outlet />
         </main>
