@@ -8,7 +8,7 @@ import MainBasicComponet2 from "../../../../components/CoursesComponents/MainBas
 
 function BasicSection() {
   const { data, loading, error } = useFetch(
-    "https://educenter-qzud.onrender.com/educenter/v1/api/maincourses/",
+    "https://educenter-7e4o.onrender.com/educenter/v1/api/maincourses/",
   );
 
   return (

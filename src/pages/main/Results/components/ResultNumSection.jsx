@@ -6,7 +6,7 @@ import useFetch from "../../../../hooks/useFetch";
 
 function ResultNumSection() {
   const { data, loading, error } = useFetch(
-    "https://educenter-qzud.onrender.com/educenter/v1/api/result",
+    "https://educenter-7e4o.onrender.com/educenter/v1/api/result",
   );
 
   return (

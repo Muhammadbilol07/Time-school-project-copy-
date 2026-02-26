@@ -9,7 +9,7 @@ import StudentImg from "../../assets/pictures/StudentPic.png";
 
 function TeacherCards({ handleShowModal }) {
   const { data, loading, error } = useFetch(
-    "https://educenter-qzud.onrender.com/educenter/v1/api/teachers/",
+    "https://educenter-7e4o.onrender.com/educenter/v1/api/teachers/",
   );
 
   if (loading) {

@@ -20,7 +20,7 @@ function AllCoursesComponent({ data, loading, error }) {
   }
 
   if (error) {
-    return <p className="text-red-500 font-bold">Xatolik yuz berdi!</p>;
+    return <p className="text-red-500 font-bold mt-5 text-2xl">Xatolik yuz berdi!</p>;
   }
 
   return (

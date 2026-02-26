@@ -26,7 +26,7 @@ function Login() {
 
     try {
       const res = await axios.post(
-        "https://educenter-qzud.onrender.com/educenter/v1/api/admin/login",
+        "https://educenter-7e4o.onrender.com/educenter/v1/api/admin/login",
         {
           phone: phoneNumber,
           password: password,

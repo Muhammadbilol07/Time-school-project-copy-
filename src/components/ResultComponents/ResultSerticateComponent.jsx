@@ -9,7 +9,7 @@ import sertificatePic from "../../assets/pictures/sertificatePic.png";
 
 function ResultSerticateComponent() {
   const { data, loading, error } = useFetch(
-    "https://educenter-qzud.onrender.com/educenter/v1/api/sertificates",
+    "https://educenter-7e4o.onrender.com/educenter/v1/api/sertificates",
   );
 
   if (loading) {

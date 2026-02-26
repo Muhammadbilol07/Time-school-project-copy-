@@ -9,7 +9,7 @@ import TeacherAboutComponent from "../../../../components/HomeComponents/Teacher
 
 function TeachersSection() {
   const { data, loading, error } = useFetch(
-    "https://educenter-qzud.onrender.com/educenter/v1/api/teachers/",
+    "https://educenter-7e4o.onrender.com/educenter/v1/api/teachers/",
   );
 
   const [selectedTeacher, setSelectedTeacher] = useState([]);

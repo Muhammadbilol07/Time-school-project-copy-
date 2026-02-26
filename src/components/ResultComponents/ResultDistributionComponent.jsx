@@ -14,7 +14,7 @@ function ResultDistributionComponent() {
   const [showAll, setShowAll] = useState(false);
 
   const { data, loading, error } = useFetch(
-    "https://educenter-qzud.onrender.com/educenter/v1/api/courses",
+    "https://educenter-7e4o.onrender.com/educenter/v1/api/courses",
   );
 
   if (loading) {
